@@ -1,0 +1,45 @@
+:root{
+    --rosa:#f9d1d9;
+    --verde:#838f58;
+    --branco:#ffffff; 
+}
+
+body{
+    background: #f0fff5;
+}
+
+.custom-navbar{
+    background: linear-gradient(90deg, var(--rosa), var(--verde));
+}
+
+.navbar{
+    color:white !important;
+}
+
+.hero{
+    background:white;
+}
+
+.hero h1{
+    color:var(--rosa);
+}
+
+.btn-pink{
+    background:var(--rosa);
+    color:white;
+    border:none;
+}
+
+.btn-pink:hover{
+    background:#f8dcd9;
+}
+
+.newsletter{
+    background:var(--verde);
+    color:white;
+}
+
+footer{
+    background:var(--rosa);
+    color:white;
+}
